@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*
+   Styles for contact form
+   Author: Edward Peña
+   Date:   03-27-2022
+
+   Filename: form.css
+*/
+
+form {
+  padding: 20px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  opacity: 0.9;
+  color: white;
+  padding: 25px 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 1;
+}
+
+input[type="reset"] {
+  background-color: var(--secondary-color);
+  opacity: 0.9;
+  color: white;
+  padding: 25px 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  opacity: 1;
+}
